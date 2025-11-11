@@ -1,4 +1,4 @@
-import React from "react";
+
 import { motion, useReducedMotion } from "framer-motion";
 import { Button } from "@/components/ui/button"; // shadcn button import (adjust path to your project)
 
@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button"; // shadcn button import (adjust
  *
  * Replace placeholder background URLs with your own images.
  */
-
+// hehehdhhhffh
 const SERVICES = [
   {
     key: "design",
