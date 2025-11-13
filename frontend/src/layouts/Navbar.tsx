@@ -23,9 +23,11 @@ const Navbar: React.FC = () => {
           <a href="#contact" className="hover:text-[#215C8E] transition-colors">
             Contact
           </a>
-          <button className="bg-[#215C8E] text-white px-4 py-2 rounded-lg hover:opacity-90 transition-all">
-            Get Help
-          </button>
+          <a href="/request-support">
+            <button className="bg-[#215C8E] text-white px-4 py-2 rounded-lg hover:opacity-90 transition-all">
+              Get Help
+            </button>
+          </a>
         </div>
 
         {/* Hamburger Menu Button */}
@@ -35,19 +37,16 @@ const Navbar: React.FC = () => {
           aria-label="Toggle menu"
         >
           <span
-            className={`block h-[3px] bg-gray-800 rounded transition-all duration-300 ${
-              isOpen ? "rotate-45 translate-y-[8px]" : ""
-            }`}
+            className={`block h-[3px] bg-gray-800 rounded transition-all duration-300 ${isOpen ? "rotate-45 translate-y-[8px]" : ""
+              }`}
           />
           <span
-            className={`block h-[3px] bg-gray-800 rounded transition-all duration-300 ${
-              isOpen ? "opacity-0" : ""
-            }`}
+            className={`block h-[3px] bg-gray-800 rounded transition-all duration-300 ${isOpen ? "opacity-0" : ""
+              }`}
           />
           <span
-            className={`block h-[3px] bg-gray-800 rounded transition-all duration-300 ${
-              isOpen ? "-rotate-45 -translate-y-[8px]" : ""
-            }`}
+            className={`block h-[3px] bg-gray-800 rounded transition-all duration-300 ${isOpen ? "-rotate-45 -translate-y-[8px]" : ""
+              }`}
           />
         </button>
       </div>
