@@ -17,7 +17,7 @@ export default function Mission() {
     const opacity = useTransform(scrollYProgress, [0, 0.3, 1], [0, 1, 0.8]);
 
     return (
-        <section ref={ref} className="py-36 mt-[100px] bg-white text-gray-600 overflow-hidden">
+        <section ref={ref} className="py-26 mt-[100px] bg-white text-gray-600 overflow-hidden">
             <div className="container flex flex-col lg:flex-row items-center justify-between gap-8 w-full h-auto lg:h-[120vh]">
                 
                 {/* Parallax Image Section */}
