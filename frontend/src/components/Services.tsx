@@ -125,7 +125,7 @@ export default function ServicesSection() {
                       color: "#fff",
                     }}
                   >
-                    <a href={`#contact`} aria-label={`Get help about ${s.title}`}>
+                    <a href="/request-support" aria-label={`Get help about ${s.title}`}>
                       Get help
                     </a>
                   </Button>

@@ -51,9 +51,11 @@ export default function HeroSection() {
           everyone belongs.
         </p>
 
-        <button className="mt-4 px-6 py-3 bg-white text-black font-medium rounded-full shadow-md hover:bg-gray-200 transition">
-          Get Help
-        </button>
+        <a href="/request-support">
+          <button className="mt-4 px-6 py-3 bg-white text-black font-medium rounded-full shadow-md hover:bg-gray-200 transition">
+            Get Help
+          </button>
+        </a>
       </div>
     </section>
   );
